@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Poppins&family=Roboto+Mono:ital,wght@1,500&family=Roboto+Serif:ital,opsz,wght@1,8..144,600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/Estilizacao_ctt_ Whatsapp.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleParaEmpresas.css">
+    
+    <title>Alucar | Para empresas</title>
+    <link rel="website icon" type="png" href="../images/AlucarLogo.png">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <h1>Alucar</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Alugar um carro</a></li>
+                <li><a href="../pages/empresas.html">Para empresas</a></li>
+                <li><a href="../pages/construcao.html">Duvidas</a></li>
+                <li><a href="../pages/construcao.html">Sobre</a></li>
+                <li><a href="../pages/lojaDePontos.html">Loja de pontos</a></li>
+            </ul>
+            <div class="login">
+                <div class="box1">
+                    <a href="#"><p>Minhas reservas</p></a>
+                </div>
+                <div class="box2"> <button id="btBox3">Login</button></div>
+            </div>
+    </div>
+
+    <section id="section-empresas">
+        <div>
+            <p>As melhores condições para sua empresa</p>
+            <h2 id="title-banner">Locação personalizada para sua empresa</h2>
+            <ul>
+                <li class="icon-banner-ali"><ion-icon class="icon-banner"
+                        name="checkmark-circle-outline"></ion-icon>Acordos flexíveis</li>
+                <li class="icon-banner-ali"><ion-icon class="icon-banner"
+                        name="checkmark-circle-outline"></ion-icon>Tarifas especiais para locação diaria e mensais</li>
+                <li class="icon-banner-ali"><ion-icon class="icon-banner"
+                        name="checkmark-circle-outline"></ion-icon>Retirada e devolução rápida em toda região</li>
+                <li class="icon-banner-ali"><ion-icon class="icon-banner"
+                        name="checkmark-circle-outline"></ion-icon>atendimento todos os dias da semana, incluindo
+                    feriados</li>
+            </ul>
+            <a href="#bt-input"><button id="bt-banner">Quero ser um cliente corporativo !</button></a>
+        </div>
+
+
+        <div id="empresariopng"></div>
+        <div id="car1"></div>
+    </section>
+
+    <article id="campo-input">
+        <div id="info-input">
+            <div id="image-input-ali">
+                <img id="image-input1" src="../images/empresas-negociacao.jpeg" alt="">
+                <img id="image-input2" src="../images/mercedesPng.png" alt="">
+            </div>
+            <div id="text-input">
+                <h3>Aluguel <em class="text-input-design">diario</em></h3>
+                <p>Ideal para necessidades pontuais, como uma viagem de negócios ou substituição de veículos para
+                    demandas diárias do seu negócio.</p>
+                <h3>Aluguel <em class="text-input-design">Mensal</em></h3>
+                <p>Ideal para solucionar demandas de longo prazo com mais economia. Além disso, facilita a gestão e
+                    relacionamento dos colaboradores.</p>
+            </div>
+        </div>
+
+        <div id="input-dados">
+            <h3>Entre em contato e <em class="text-input-design">garanta nossos beneficios!</em></h3>
+            <p class="espacoP">Deixe seus dados e entraremos em contato! </p>
+
+            <form id="dados" name="dados" method="post" action="">
+
+
+                <div class="input-group">
+                    <input type="text" id="cnpj" name="cnpj" class="input-group-input" required>
+                    <label for="cnpj" class="input-group-label">CNPJ:</label>
+                </div>
+
+
+
+                <div class="input-group">
+                    <input type="text" id="nm-empresa" name="nm-empresa" class="input-group-input" required>
+                    <label for="nm-empresa" class="input-group-label">Nome da empresa:</label>
+                </div>
+
+
+
+                <div class="input-group">
+                    <input type="text" id="nm-pessoal" name="nm-pessoal" class="input-group-input" required>
+                    <label for="nm-pessoal" class="input-group-label">Seu nome:</label>
+                </div>
+
+
+
+                <p class="espacoP">Informe o estado que o CNPJ foi registrado: </p>
+
+                <div class="input-group">
+                    <label for="cnpj-estado"></label>
+                    <select name="cnpj-estado" id="cnpj-estado" class="input-group-input" required>
+                        <option value="">- Selecione -</option>
+                        <option value="Acre - AC">Acre - AC</option>
+                        <option value="Alagoas - AL">Alagoas - AL</option>
+                        <option value="Amapá - AP">Amapá - AP</option>
+                        <option value="Amazonas - AM">Amazonas - AM</option>
+                        <option value="Bahia - BA">Bahia - BA</option>
+                        <option value="Ceará - CE">Ceará - CE</option>
+                        <option value="Distrito Federal - DF">Distrito Federal - DF</option>
+                        <option value="Espírito Santo - ES">Espírito Santo - ES</option>
+                        <option value="Goiás - GO">Goiás - GO</option>
+                        <option value="Maranhão - MA">Maranhão - MA</option>
+                        <option value="Mato Grosso - MT">Mato Grosso - MT</option>
+                        <option value="Mato Grosso do Sul - MS">Mato Grosso do Sul - MS</option>
+                        <option value="Minas Gerais - MG">Minas Gerais - MG</option>
+                        <option value="Pará - PA">Pará - PA</option>
+                        <option value="Paraíba - PB">Paraíba - PB</option>
+                        <option value="Paraná - PR">Paraná - PR</option>
+                        <option value="Pernambuco - PE">Pernambuco - PE</option>
+                        <option value="Piauí - PI">Piauí - PI</option>
+                        <option value="Rio de Janeiro - RJ">Rio de Janeiro - RJ</option>
+                        <option value="Rio Grande do Norte - RN">Rio Grande do Norte - RN</option>
+                        <option value="Rio Grande do Sul - RS">Rio Grande do Sul - RS</option>
+                        <option value="Rondônia - RO">Rondônia - RO</option>
+                        <option value="Roraima - RR">Roraima - RR</option>
+                        <option value="Santa Catarina - SC">Santa Catarina - SC</option>
+                        <option value="São Paulo - SP">São Paulo - SP</option>
+                        <option value="Sergipe - SE">Sergipe - SE</option>
+                        <option value="Tocantins - TO">Tocantins - TO</option>
+                    </select>
+                </div>
+
+                <p class="espacoP">Informe a cidade que o CNPJ foi registrado: </p>
+                <div class="input-group">
+                    <input type="text" id="cnpj-cidade" name="cnpj-cidade" class="input-group-input" required>
+                    <label for="cnpj-cidade" class="input-group-label">Cidade:</label>
+                </div>
+
+
+
+                <div class="input-group">
+                    <input type="tel" id="nr-contato" name="nr-contato" class="input-group-input" required>
+                    <label for="nr-contato" class="input-group-label">Celular:</label>
+                </div>
+
+
+
+                <p class="espacoP">Atenção: Coloque seu E-mail corporativo. </p>
+                <div class="input-group">
+                    <input type="email" id="cnpj-email" name="cnpj-email" class="input-group-input" required>
+                    <label for="cnpj-email" class="input-group-label">E-mail:</label>
+                </div>
+
+
+                <button id="bt-input" tabindex="-1" type="submit">ENVIAR</button>
+            </form>
+
+        </div>
+
+
+    </article>
+
+
+    <a id="chamadawpp"
+        href="https://api.whatsapp.com/send?phone=5546935059440&text=Ol%C3%A1!%20Estava%20navegando%20no%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20planos%20de%20Internet%20da%20Infoservic"
+        target="_blank">
+        <img src="https://img.icons8.com/color/48/whatsapp--v1.png" />
+        <div>
+            <p>Fale com a gente via whatsapp !</p>
+        </div>
+    </a>
+
+    <footer class="roda-pe">
+        <div><p>© 2023 Todos os direitos reservados</p></div>
+    </footer>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

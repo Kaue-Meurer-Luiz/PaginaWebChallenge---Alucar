@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+html {
+    font-size: 62.5%; 
+}
+
+
+body {
+    font-size: 1.6rem;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+#pagina-construcao img{
+    width: 100%;
+    max-height: 100vh;
+}
+
+
+.roda-pe{
+    color: #fff;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+
+}
+
+
+/* Estilos do Header */
+.header {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "logo nav pontos";
+    position: relative;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+
+}
+
+.header li{
+    font-size: 25px;
+    
+}
+
+.header li:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+
+
+.login {
+    display: grid;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    right: 10px;
+    background-color: white;
+}
+
+.login p:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.box1{
+    text-align: center;
+}
+
+#btBox3 {
+    background-color: #007bff;
+    color: white;
+    font-size: 15px;
+    padding: 3px 70px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+#btBox3:hover{
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    background-color: #1d005f;
+    transform: scale(1.1);
+    transition: 0.3s;
+
+
+}
+
+nav {
+    grid-area: nav;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+
+nav li {
+    white-space: nowrap;
+}
+
+/* Estilos section */
+
+
+#bg-section1{
+    background-image: url(../images/FundoCeuAzul.jpg);
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+#title1{
+    color: #fff;
+}
+
+.local {
+    border-radius: 5px;
+    margin: 1% 10%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    padding: 20px 2%;
+    white-space: nowrap;
+    background-color: #2754ba;
+}
+
+.retirada {
+    background-color: #ffffff;
+    grid-column: 1/3;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+
+.dtretirada {
+    background-color: #ffffff;
+    grid-column: 3/4;
+    border: 1px solid rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.data {
+    grid-column: 1/2;
+    padding: 5px;
+}
+
+.hora {
+    grid-column: 2/2;
+    padding: 5px;
+}
+
+.dtdevolucao {
+    background-color: #ffffff;
+    grid-column: 4/5;
+    border: 1px solid rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.input {
+    border-style: none;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    width: 70%;
+    height: 40px;
+}
+
+.input:focus {
+    border: 2px solid #aaaaaa;
+    border-radius: 15px;
+}
+
+
+.buscar {
+    grid-column: 5/5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#lcbuscar{
+    background-color: #ff0000;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+#lcbuscar:hover{
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    background-color: #15c455;
+    transform: scale(1.1);
+    transition: 0.3s;
+
+
+
+}
+
+
+button {
+
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+/* Estilos article */
+
+.container {
+    margin: 1.5% 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.box {
+    height: 400px;
+}
+
+#img1 {
+    width: 25%;
+    background-image: url(../images/imagem1Box.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img2{
+    width: 25%;
+    background-image: url(../images/imagem2Box.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#agent{
+    max-height: 76px;
+    max-width: 129px;
+    padding-right: 10px;
+}
+
+#agent-contents{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 12px;
+    padding: 1px 20px;
+}
+
+#btagent{
+    padding-left: 20px;
+}
+
+
+/* Estilização das formas de contato */
+.canais{
+    padding: 16px 20px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.btcanais{
+    background-color: #2754ba;
+    padding: 10px 20px;
+}
+
+.btcanais:hover{
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    background-color: #1d005f;
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.btposicao{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+
+/* Estilização campo de video chamada */
+.videochamada{
+    position: relative;
+    text-align: center;
+    width: 33%;
+    min-height: 300px;
+    max-height: 300px;
+}
+#logovdchamada{
+    max-height: 80px;
+    max-width: 130px;
+    padding-bottom: 10px;
+}
+
+
+/* Estilização campo de agendar chamada */
+.agendar{
+    position: relative;
+    text-align: center;
+    width: 33%;
+    min-height: 300px;
+    max-height: 300px;
+}
+
+#logoagendar{
+    max-height: 80px;
+    max-width: 120px;
+    padding-bottom: 10px;
+}
+
+
+/* Estilização campo de televendas */
+.televendas{
+    position: relative;
+    text-align: center;
+    width: 33%;
+    min-height: 300px;
+    max-height: 300px;
+}
+
+#logotelevendas{
+    max-height: 80px;
+    max-width: 120px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,117 @@
+
+/* Estilização primeira imagem */
+#img-bg-club-alucar{
+    align-items: center;
+    margin: 0 10%;
+}
+
+#img-bg-club-alucar img{
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 0 auto;
+}
+
+
+/* Estilização do texto abaixo da primeira imagem */
+#subtitle-club{
+    text-align: center;
+    padding-top: 35px;
+    font-size: 50px;
+}
+
+#paragraf-club{
+    text-align: center;
+    margin: 10px 10%;
+    font-size: 20px;
+}
+
+/* Estilização dos cards de brindes */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 35px;
+    grid-template-areas: 
+        "card1 card2 card3 card4"
+        "card5 card6 card7 card8";
+    margin: 50px 0;
+    padding: 0 15%;
+}
+
+.card{
+    border-radius: 5px;
+    background-color: #007bff;
+    padding: 35px;
+    text-align: center;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.card h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #000;
+    padding-bottom: 15px;
+}
+
+.card img{
+    height: 250px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.card1{
+    grid-area: card1;
+}
+.card2{
+    grid-area: card2;
+}
+.card3{
+    grid-area: card3;
+}
+.card3{
+    grid-area: card3;
+}
+.card4{
+    grid-area: card4;
+}
+.card5{
+    grid-area: card5;
+}
+.card6{
+    grid-area: card6;
+}
+.card7{
+    grid-area: card7;
+}
+.card8{
+    grid-area: card8;
+}
+
+.bt-brindes{
+    background-color: #1d005f;
+    padding: 10px;
+    
+}
+
+.bt-brindes:hover{
+    background-color: #15c455;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
